@@ -1,0 +1,1 @@
+MATCH (a: TypeNode{Cond_on_Node})-[:TYPE_REL]->(b) RETURN b.property;

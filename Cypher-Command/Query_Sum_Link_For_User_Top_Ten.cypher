@@ -1,0 +1,1 @@
+MATCH(user:User)<-[allLinkUserBy]-() RETURN user.name AS User_ID, COUNT (allLinkUserBy) AS Interaction ORDER BY Interaction DESC LIMIT 10

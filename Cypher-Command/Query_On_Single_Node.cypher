@@ -1,0 +1,1 @@
+MATCH (a:TypeNode) WHERE <Cond_On_Node_Property> RETURN a(il nodo) / a.property (un campo del nodo);
